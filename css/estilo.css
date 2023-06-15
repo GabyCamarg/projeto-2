@@ -1,0 +1,169 @@
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+nav > div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+
+.links {
+    display: flex;
+    gap: 50px;
+}
+
+.numero {
+    color: #f35926;
+}
+
+.dois {
+    color: #fcb929
+}
+
+.tres {
+    color: #00b049;
+}
+
+.numeros {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.site-nome {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+header {
+    background-image: url(../img/barcos.webp);
+    padding: 100px;
+    display: flex;
+}
+
+header > div { 
+    margin: 50px auto 100px auto;
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 5px;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+.botao {
+    background-color: #ea3d35;
+    font-weight: bold;
+    color:white;
+    font-size: 20px;
+    border:none;
+    border-radius: 6px;
+}
+
+input {
+    padding: 5px;
+}
+
+input::placeholder {
+    font-size: 20px;
+}
+
+.rio {
+    background-image: url(../img/rio.webp);
+}
+
+.bonito {
+    background-image: url(../img/bonito.webp);
+}
+
+.saopaulo {
+    background-image: url(../img/sao-paulo.webp);
+}
+
+.fozdoiguaçu {
+    background-image: url(../img/foz.webp);
+}
+
+.maceio {
+    background-image: url(../img/maceio.webp);
+}
+
+.salvador {
+    background-image: url(../img/salvador.webp);
+}
+
+.fortaleza {
+    background-image: url(../img/fortaleza.webp);
+}
+
+.belohorizonte {
+    background-image: url(../img/belo-horizonte.webp);
+}
+
+.viagens {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 50px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25px;
+
+}
+
+article {
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.lista-viagens {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px; 
+
+}
+
+.viagens > button {
+    border-radius: 15px;
+    border: none;
+    padding:5px 30px;
+    box-shadow: 2px 3px 7px black;
+}
+
+.viagens > span {
+    font-weight: bold;
+    color:white;
+    text-shadow: 2px 3px 7px black;
+}
+
+.dinheiro {
+    font-size: 20px;
+}
+
+article > h2 {
+    margin: 20px 5px 6px;
+}
